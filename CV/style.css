@@ -1,0 +1,145 @@
+*, html {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    height: 57px;
+    background-color: #131313;
+}
+
+.header-logo-name {
+    max-width: 1024px;
+    position: relative;
+    margin: auto;
+}
+
+.my-photo {
+    max-width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 120px;
+    color: #ffffff;
+}
+
+hr{
+    margin: 1px;
+}
+
+main {
+    background: radial-gradient(ellipse at top, #ffffff, transparent),
+                radial-gradient(ellipse at bottom, #000000, transparent);
+    width: 100%;
+}
+
+.wrapper-main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    padding: 35px;
+    color: #ffffff;
+}
+
+    @media screen and (max-width: 500px)  {
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+.column-1, .column-2 {
+    background: #494949;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 120px;
+    color: #111;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.photo {
+    border-radius: 8px;
+}
+
+.about-myself-item {
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+}
+
+.column-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contacts {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.contacts-items {
+    width: 45px;
+    padding-right: 15px;
+}
+
+.footer {
+    padding-top: 1px;
+    height: 50px;
+    color: #ffffff;
+    background: #111;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
