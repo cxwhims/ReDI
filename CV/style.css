@@ -67,6 +67,17 @@ main {
         .wrapper {
             display: flex;
             flex-direction: column;
+            padding: 35px 15px 15px 15px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
     }
 
